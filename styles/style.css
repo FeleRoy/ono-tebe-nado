@@ -6,13 +6,9 @@
   padding: 92px 24px;
 }
 
-.test {
-  border: 1px solid #fd24af;
-}
 .header__menu {
   display: flex;
   justify-content: start;
-  border: 1px solid #fd24af;
   padding-top: 3px;
   padding-left: 28px;
   font-weight: 400;
@@ -44,21 +40,35 @@
 .header__logo-image {
   width: 148px;
   height: 105px;
-  border: 1px solid #fd24af;
 }
 
 .header__info {
-  border: 1px solid #fd24af;
   display: flex;
-  justify-self: end;
   flex-direction: column;
-  font-size: 18px;
-  font-weight: 400;
-  padding-right: 28px;
+  justify-self: end;
   padding-top: 6px;
+  padding-right: 28px;
+  font-weight: 400;
+  font-size: 18px;
   line-height: 24.3px;
 }
 .address {
   font-family: Raleway, sans-serif;
   font-style: normal;
+}
+
+.cover {
+  position: relative;
+  width: 1100px;
+  height: 757px;
+  margin-top: 4px;
+  background-image: url(/images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: 1100px 757px;
+}
+.overlay {
+  z-index: 1;
+  width: 1100px;
+  height: 757px;
+  background-color: rgb(0 0 0 / 0.6);
 }
