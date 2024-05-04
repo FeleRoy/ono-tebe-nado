@@ -105,3 +105,36 @@
 .letter-spacing-extended {
   letter-spacing: 60px;
 }
+
+.cover__description {
+ display: flex; 
+ margin-top: 135px;
+ justify-content: space-between;
+}
+.cover__description-text {
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 28px;
+  padding-left: 81px;
+  font-size: 22px;
+  word-spacing: 18px;
+  padding-top: 12px;
+}
+.bet-button {
+ font-size: 22px;
+ font-weight: 500;
+ line-height: 25.83px;
+ text-align: center;
+ text-transform: uppercase;
+ background-color: transparent;
+ color: white;
+ border: 1px solid white;
+ padding-top: 12px;
+ padding-left: 31px;
+ padding-right: 32px;
+ padding-bottom: 11px;
+ margin-right: 49px;
+
+  
+}
