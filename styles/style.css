@@ -1,1 +1,57 @@
 /* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
+  grid-template-rows: 105px;
+  padding: 92px 24px;
+
+}
+
+.test {
+  border: 1px solid #fd24af;
+  
+}
+.header__menu {
+  display: flex;
+  border: 1px solid #fd24af;
+  justify-content: start;
+  padding-top: 3px;
+  padding-left: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  
+  
+}
+.header__links-list { 
+  
+  list-style: circle;
+  display: flex;
+  justify-content: space-around;
+  align-self: center; 
+  list-style-position: outside;
+  
+}
+.header__links-list-item {
+  padding-right: 30px;
+  padding-left: 0;
+
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+  
+}
+.header__link_active {
+  text-decoration: none;
+}
+.header__link {
+  text-decoration: underline;
+}
+
+
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+  border: 1px solid #fd24af;
+  
+}
