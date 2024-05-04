@@ -64,12 +64,44 @@
   margin-top: 4px;
   background-image: url(/images/lotus-flower.png);
   background-repeat: no-repeat;
-  background-size: 1100px 757px;  
-  
+  background-size: 1100px 757px;
 }
 .overlay {
   z-index: 1;
   width: 1100px;
   height: 757px;
   background-color: rgb(0 0 0 / 0.6);
+}
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  padding-top: 164px;
+  padding-left: 50px;
+  color: white;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115px;
+  line-height: 100px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  line-height: 115px;
+}
+
+.aligned-text_center {
+  padding-top: 20px;
+  padding-left: 285px;
+  letter-spacing: 30px;
+}
+
+.aligned-text_right {
+  padding-top: 20px;
+  padding-left: 583px;
+  letter-spacing: 30px;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
 }
