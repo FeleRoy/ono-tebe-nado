@@ -62,9 +62,10 @@
   width: 1100px;
   height: 757px;
   margin-top: 4px;
-  background-image: url(/images/cover.jpg);
+  background-image: url(/images/lotus-flower.png);
   background-repeat: no-repeat;
-  background-size: 1100px 757px;
+  background-size: 1100px 757px;  
+  
 }
 .overlay {
   z-index: 1;
