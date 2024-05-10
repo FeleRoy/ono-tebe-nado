@@ -148,7 +148,7 @@
 
 .lots {
   width: 1052px;
-  
+
   margin-top: 182px;
   margin-left: 24px;
 }
@@ -164,12 +164,12 @@
 
 .lots__card-list {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
+  gap: 25px;
   margin-top: 24px;
   margin-bottom: 33px;
   list-style: none;
-  gap: 25px;
 }
 
 .card-link {
