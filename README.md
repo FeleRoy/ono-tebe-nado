@@ -24,3 +24,5 @@
 * HTML5
 * CSS3
 * Pixel Perfect
+
+[![Tech](https://skillicons.dev/icons?i=html,css&theme=dark&perline=6)](https://skillicons.dev)
